@@ -1,5 +1,6 @@
 <template>
   <ul v-if="event">
+    <div>Event Details:</div>
     <li>Category: {{ event.category }}</li>
     <li>Date: {{ event.date }}</li>
     <li>Description: {{ event.description }}</li>
